@@ -604,9 +604,9 @@ img {
   background-color: var(--success-message-color);
 }
 
-.footer-block-subscription {
+.footer-subscription-form {
   display: flex;
-  flex-direction: column;
+  gap: 24px;
 }
 
 .footer-input {
@@ -620,11 +620,11 @@ img {
   border: 1px solid var(--white);
   background-color: transparent;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  padding: 8px 16px;
+  padding-left: 16px;
   font-size: 12px;
   line-height: 2;
+  letter-spacing: 0.04em;
   color: var(--white);
-  margin-right: 24px;
 }
 
 .footer-email-input::placeholder {
@@ -635,7 +635,6 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 16px;
 
   width: 165px;
   height: 40px;
@@ -643,6 +642,7 @@ img {
   border: none;
   border-radius: 4px;
   background-color: var(--iris);
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
@@ -654,6 +654,7 @@ img {
 }
 
 .subsccribe-btn-icon {
+  margin-left: 16px;
   fill: currentColor;
 }
 
@@ -717,6 +718,7 @@ img {
   flex-direction: column;
   display: flex;
   width: 100%;
+  margin-bottom: 8px;
 
   font-size: 12px;
   line-height: 1.17;
@@ -727,12 +729,10 @@ img {
 .modal-input-label {
   display: block;
   margin-bottom: 4px;
-}
-
-.modal-input-fields {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--lightslate);
 }
 
 .input-wrapper {
@@ -749,7 +749,6 @@ img {
   border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.4));
   outline: transparent;
   background-color: transparent;
-  font-size: 18px;
   transition: border-color var(--transition-duration-time-function);
 }
 
@@ -776,7 +775,6 @@ img {
   height: 120px;
   resize: none;
   padding: 8px 16px;
-  margin-bottom: 16px;
 }
 
 .textarea::placeholder {
