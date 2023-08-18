@@ -684,8 +684,6 @@ img {
 
 .modal {
   position: absolute;
-  display: flex;
-  flex-direction: column;
 
   width: 408px;
   min-height: 584px;
@@ -698,6 +696,11 @@ img {
     0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
   transform: translate(-50%, -50%) scale(1);
   transition: transform var(--transition-duration-time-function);
+}
+
+.user-feedback-form {
+  display: flex;
+  flex-direction: column;
 }
 
 .modal-description {
